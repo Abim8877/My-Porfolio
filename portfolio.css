@@ -1,5 +1,62 @@
-.side-bar-head{
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.main-header{
+    background-color: aqua;
     display: flex;
     justify-content: space-around;
-    
+}
+.sub-header2{
+    display: flex;
+    flex-direction: row;
+}
+.main-sub-header2{
+    list-style: none;
+    margin-left: 50px;
+}
+.log{
+    list-style: none;
+    margin-left: -68px;
+}
+.mine-pic{
+    height: 650px;
+    max-width: 500px;
+    border-radius: 13%;
+    margin-left: -200px;
+}
+.sub-main{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+}
+.mine-name{
+    font-size: 70px;
+}
+.mine-skill{
+    font-size: 20px;
+    margin-top: -70px;
+}
+.hire-btn{
+    background-color: rgba(143, 129, 239, 0.658);
+    height: 50px;
+    width: auto;
+    border-radius: 50px;
+    padding-inline: 25px;
+    padding-block-start: 5px;
+    padding-block-end: 5px;
+}
+.main-work{
+    text-align: center;
+    margin-top: 120px;
+}
+.main-skill{
+    display: flex;
+    margin-left: 50px;
+    justify-content: center;
+}
+.my-skill{
+    margin-right: 20px;
+    background-color: blueviolet;
 }
